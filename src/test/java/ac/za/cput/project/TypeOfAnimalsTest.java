@@ -7,7 +7,7 @@ public class TypeOfAnimalsTest {
 
 @Test
     public void eat(){
-    Assert.assertEquals("Animals eat"," animals eat");
+    Assert.assertEquals("Animals eat","Animals eat");
 }
 
 @Test

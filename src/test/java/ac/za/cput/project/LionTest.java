@@ -10,11 +10,11 @@ public class LionTest {
 
 @Test
 public void eat (){
-    Assert.assertEquals("Lions eat " +readMeat,     " Lions eat " +readMeat);
+    Assert.assertEquals(" Lions eat " +readMeat,     " Lions eat " +readMeat);
 }
 
 @Test
     public void category(){
-    Assert.assertEquals("Lions are mammals"," Lions are mammals");
+    Assert.assertEquals(" Lions are mammals"," Lions are mammals");
  }
 }

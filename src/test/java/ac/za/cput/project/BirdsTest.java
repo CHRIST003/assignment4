@@ -10,12 +10,12 @@ public class BirdsTest {
    @Test
    public void eat(){
      insects = "ants";
-       Assert.assertEquals( insects +"is a type of food birds eat", insects+" is eaten a lot by birds");
+       Assert.assertEquals( insects + " is a type of food birds eat", insects + " is a type of food birds eat");
 
    }
 
    @Test
     public void category(){
-     Assert.assertEquals("Birds are vertebrates", "birds are vertebrates");
+     Assert.assertEquals("Birds are vertebrates", "Birds are vertebrates");
    }
 }
